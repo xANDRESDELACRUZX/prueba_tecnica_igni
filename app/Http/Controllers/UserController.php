@@ -57,7 +57,7 @@ class UserController extends Controller
             $user["img"] = $img;
         }
         $user->save();
-        // alert()->success('¡Cuenta creada con exito!');
+         alert()->success('¡Cuenta creada con exito!');
         return redirect("/");
     }
 

@@ -9,7 +9,7 @@ class Book extends Model
 {
     use HasFactory;
     protected $table = "books";
-    protected $fillable = ['name',"author","category_id","reservationStatus"];
+    protected $fillable = ['name',"author","category_id","img","description","reservationStatus"];
 
     public function category()
     {

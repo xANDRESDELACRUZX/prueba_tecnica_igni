@@ -115,7 +115,10 @@
         
     </div>
     <img src="img/cloud.png" alt="">
-    @include('sweetalert::alert') 
+
+</body>
+@include('sweetalert::alert') 
+
     <!-- Bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>
@@ -152,6 +155,5 @@
 
         });
     </script>
-</body>
 
 </html>
